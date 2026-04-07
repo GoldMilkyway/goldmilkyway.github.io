@@ -23,7 +23,7 @@ repository               : "goldmilkyway/goldmilkyway.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "taerokim.jpg"
+  avatar           : "taero.png"
   name             : "Taero Kim"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. student in Statistics and Data Science at Yonsei University"
@@ -84,8 +84,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  selected:
-    title: 'Selected Papers'    
+  invariant_learning:
+    title: 'Distribution Shift & Invariant Learning'
+  llm:
+    title: 'Large Language Models'
+  healthcare:
+    title: 'Healthcare AI & Biomedical Signals'
   other:
     title: 'Other Papers'
 
