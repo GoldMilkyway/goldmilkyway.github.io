@@ -6,7 +6,8 @@ permalink: /publication/2025-Robust-PPG
 excerpt: "Sungjun Lim<sup>*</sup>, <strong>Taero Kim</strong><sup>*</sup>, Hyunjung Lee<sup>*</sup>, Yewon Kim, Minhoi Park, Minseung Kim, Kyuhyung Kim, Kyungwoo Song &nbsp;<small>(<sup>*</sup> equal contribution)</small><br><br>We apply distributionally robust optimization to PPG-based blood pressure estimation to address data imbalance and distribution shift across subjects. Our approach improves estimation robustness and generalization to underrepresented physiological conditions."
 date: 2025-03-01
 venue: 'Biomedical Signal Processing and Control'
-paperurl:
+image: 'robust_ppg.png'
+paperurl: 'https://www.sciencedirect.com/science/article/pii/S1746809425000965'
 slidesurl:
 bibtexurl:
 citation:
