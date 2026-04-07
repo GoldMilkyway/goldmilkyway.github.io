@@ -104,6 +104,17 @@
     font-size: $type-size-5;
     border-bottom: none;
   }
+
+  .list__item {
+    padding-bottom: 1.8em;
+    margin-bottom: 1.8em;
+    border-bottom: 1px solid var(--global-border-color);
+
+    &:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+  }
 }
 
 .archive__item-excerpt {
