@@ -32,6 +32,8 @@
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
+      {% if post.oral %}<span class="oral-badge"><i class="fa fa-microphone" aria-hidden="true"></i> Oral</span>{% endif %}
+      {% if post.award %}<span class="award-badge"><i class="fa fa-trophy" aria-hidden="true"></i> {{ post.award }}</span>{% endif %}
       {% if post.paperurl %}<a href="{{ post.paperurl }}" class="paper-link" target="_blank" rel="noopener"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> PDF</a>{% endif %}
     </h2>
     
@@ -48,7 +50,7 @@
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    <p class="archive__item-excerpt" itemprop="description" style="margin-top: 0.2em;">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
