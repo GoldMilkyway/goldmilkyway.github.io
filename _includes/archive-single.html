@@ -32,7 +32,7 @@
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-      {% if post.paperurl %}<a href="{{ post.paperurl }}" class="paper-link" target="_blank" rel="noopener">PDF</a>{% endif %}
+      {% if post.paperurl %}<a href="{{ post.paperurl }}" class="paper-link" target="_blank" rel="noopener"><i class="fa fa-file-text-o" aria-hidden="true"></i>Paper</a>{% endif %}
     </h2>
     
     {% if post.read_time %}
