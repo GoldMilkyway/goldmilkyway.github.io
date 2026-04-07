@@ -158,14 +158,8 @@
     box-shadow: 0 0 10px rgba(#000, 0.25);
   }
 
-  .archive__item-title {
+  .archive__item-title > a:first-child {
     text-decoration: underline;
-
-    .paper-link,
-    .award-badge,
-    .oral-badge {
-      text-decoration: none !important;
-    }
   }
 }
 
