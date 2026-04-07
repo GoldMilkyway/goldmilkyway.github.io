@@ -7,6 +7,7 @@ excerpt: 'This paper is about the number 1. The number 2 is left for future work
 date: 2025-06-03
 venue: 'CVPR'
 slidesurl: #
+image: 'sil_cover.jpg'
 paperurl: 'https://openaccess.thecvf.com/content/CVPR2025/papers/Kim_Sufficient_Invariant_Learning_for_Distribution_Shift_CVPR_2025_paper.pdf'
 bibtexurl: #
 citation: #
