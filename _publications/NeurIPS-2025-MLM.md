@@ -7,7 +7,7 @@ excerpt: "Jung Lee<sup>*</sup>, <strong>Taero Kim</strong><sup>*</sup>, Nikhil V
 date: 2025-12-01
 venue: 'Efficient Reasoning Workshop at Neural Information Processing Systems (NeurIPS)'
 image: 'mlm.png'
-paperurl:
+paperurl: 'https://openreview.net/pdf?id=VAnFWVbYxG'
 slidesurl:
 bibtexurl:
 citation:
