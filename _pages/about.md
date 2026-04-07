@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /
 title: "Taero Kim"
 author_profile: true
