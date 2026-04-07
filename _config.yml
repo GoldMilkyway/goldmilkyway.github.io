@@ -90,8 +90,8 @@ publication_category:
     title: 'Distribution Shift & Invariant Learning'
   healthcare:
     title: 'Bio AI'
-  other:
-    title: 'Other Papers'
+  # other:
+  #   title: 'Other Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
