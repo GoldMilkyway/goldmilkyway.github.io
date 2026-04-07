@@ -23,15 +23,13 @@ Prior to my Ph.D., I received a B.S. in Physics and Nano Semiconductor Physics f
 
 **I am actively seeking research internship opportunities.** Feel free to reach out at **taero.kim (at) yonsei.ac.kr**.
 
----
-
 ## Selected Papers
 
 
-{% assign selected_categories = "invariant_learning,llm,healthcare" | split: "," %}
+{% assign selected_categories = "llm,invariant_learning,healthcare" | split: "," %}
 {% for category in selected_categories %}
   {% assign title_shown = false %}
-  {% for post in site.publications reversed %}
+  {% for post in site.publications %}
     {% if post.category != category %}{% continue %}{% endif %}
     {% unless title_shown %}
 

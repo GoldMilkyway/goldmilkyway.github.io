@@ -84,12 +84,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  invariant_learning:
-    title: 'Distribution Shift & Invariant Learning'
   llm:
     title: 'Large Language Models'
+  invariant_learning:
+    title: 'Distribution Shift & Invariant Learning'
   healthcare:
-    title: 'Healthcare AI & Biomedical Signals'
+    title: 'Bio AI'
   other:
     title: 'Other Papers'
 
