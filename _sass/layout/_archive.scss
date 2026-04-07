@@ -27,10 +27,12 @@
   }
 }
 
-%pub-badge-base {
+.paper-link,
+.award-badge,
+.oral-badge {
   display: inline-flex;
   align-items: center;
-  gap: 0.3em;
+  gap: 0.35em;
   margin-left: 0.5em;
   padding: 0.35em 0.85em;
   font-size: 0.63em;
@@ -45,6 +47,7 @@
   white-space: nowrap;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
   transition: transform 0.12s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+  cursor: default;
 
   i { font-size: 1.05em; }
 
@@ -63,28 +66,15 @@
 }
 
 .paper-link {
-  @extend %pub-badge-base;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4em;
-  margin-left: 0.6em;
-  padding: 0.35em 0.85em;
-  font-size: 0.63em;
-  font-weight: 700;
-  font-family: $sans-serif;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #fff !important;
   background-color: var(--global-base-color);
+  cursor: pointer;
 }
 
 .award-badge {
-  @extend %pub-badge-base;
   background-color: #c8952a;
 }
 
 .oral-badge {
-  @extend %pub-badge-base;
   background-color: #3a7fc1;
 }
 
@@ -146,6 +136,10 @@
   margin-top: 0;
   font-size: $type-size-6;
 
+  p:first-child {
+    margin-top: 0;
+  }
+
   & + p {
     text-indent: 0;
   }
@@ -166,6 +160,12 @@
 
   .archive__item-title {
     text-decoration: underline;
+
+    .paper-link,
+    .award-badge,
+    .oral-badge {
+      text-decoration: none !important;
+    }
   }
 }
 
